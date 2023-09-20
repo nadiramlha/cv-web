@@ -1,0 +1,101 @@
+/* Reset CSS */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-10 {
+  flex-basis: calc(83.333333% - 30px);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.col-md-offset-1 {
+  margin-left: 8.333333%;
+}
+
+.title h1 {
+  font-size: 36px;
+}
+
+.title h3 {
+  font-size: 24px;
+}
+
+.hr {
+  border: 1px solid #333;
+  margin: 20px 0;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Summary Section */
+.summary p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.summary .row {
+  margin-top: 20px;
+}
+
+.summary .col-md-3 {
+  flex-basis: calc(25% - 15px);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* Work Experience Section */
+.work-experience h3 {
+  font-size: 24px;
+}
+
+.work-experience h4 {
+  font-size: 20px;
+}
+
+.work-experience h5 {
+  font-size: 18px;
+}
+
+.work-experience h3,
+.work-experience h4,
+.work-experience h5 {
+  margin-bottom: 10px;
+}
+
+.work-experience p {
+  font-size: 18px;
+  line-height: 1.5;
+}
